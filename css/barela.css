@@ -1,0 +1,85 @@
+.material-icons {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 40;
+  vertical-align: sub;
+}
+* {vertical-align: middle;}
+body {font-family: Nunito; font-size: 18px; width: 60%; margin: 0 auto;}
+
+.rojo {color: red}
+.vino {color: darkred}
+.solo {color: pink}
+.azul {color: blue}
+.peq { font-size: 90%;}
+.inv {border:none; padding:0; background-color: transparent; }
+
+a {text-decoration: none; }
+a:hover {font-size: 105%;}
+
+.info {background-color: #d8e5f2; font-size: 0.8em; padding: 2em; margin: 1em 0;}
+.hermanos {margin-left: 1em;}
+h1 {font-size: 1.3rem;}
+.tit1 {
+  font-weight: bold;
+  background-color: #36454F;
+  color: white;
+  display: block;
+  padding-left: 1em;
+  margin: 0;
+}
+.tit2 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.tit1a {
+  background-color: #657682;
+}
+.persona {
+  text-align: center;
+  vertical-align: baseline;
+  border-bottom: #36454F 1px solid;
+}
+ 
+.perfil {
+  background-color: transparent; 
+  border-color: none; 
+  border-radius: 60%; 
+}
+img {
+  margin: 2px;
+}
+.container {
+  margin-left: 5em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items:center; /* eje vertical */
+  justify-content: flex-start; /* eje horizontal */  
+}
+
+blockquote {margin-left: 3em;}
+p {margin: 0;}
+.hijos {margin-left: 4.5em;}
+
+.nivel2, .nivel3, .nivel4, .nivel5 {
+  display: grid;
+  grid-template-columns: 15% 75% 10%;
+  align-items: start; /* eje vertical */
+  justify-content: flex-start; /* eje horizontal */
+  margin-bottom: 0.5em; 
+  border-top: gray 1px dotted;
+}
+.nivel {background-color: transparent; border-color: none; border-radius: 60%; width: 4rem;}
+.borde {border: blue 1px solid}
+.nivel1 {margin-bottom: 0.5em; font-weight: bold; font-size: 100%;}
+.nivel2 {margin-left: 4.5em; font-weight: bold; font-size: 97%; padding-top: 8px; }
+.nivel3 {margin-left: 9em; font-weight:bold; color: #36454F; font-size: 95%;}
+.nivel4 {margin-left: 13.5em; font-weight: 400; font-size: 94%;}
+.nivel5 {margin-left: 17em;font-variant: small-caps ; color: gray; font-size: 94%;}
+.nivel6 {margin-left: 17em;font-weight:300; font-size: 90%; color: #36454F;}
+.noborder {border-top: 0px !important;}
+
+.family {margin-left: 2em; font-style: normal; margin: 0; margin-top: 2px;}
+.pareja {font-style: italic; margin: 0; margin-top: 2px; font-weight: normal;}
