@@ -1,0 +1,74 @@
+/* https://www.mclibre.org/consultar/htmlcss/css/css-fuente.html */
+* {
+  font-size: 12px;
+  letter-spacing: .05rem;
+  font-family: 'Open Sans', Nunito, 'sans-serif';
+}
+body {
+  width: 98%;
+  margin: 0 auto;
+}
+.gris {background-color: white;}
+.peq { font-size: 0.85rem; margin: 0 1em; font-style: normal !important;}
+a {text-decoration: none;}
+a:hover {cursor: pointer;}
+table {
+  vertical-align: middle;
+}
+td {padding-left: 1em;}
+details {margin-top: -1rem;}
+summary {margin-left: 9.5rem;}
+
+.perfil, .perfil_i {
+  display: inline-block; 
+  background-color: transparent; 
+  border-color: none; 
+  border-radius: 50%; 
+  width: 4.5rem;
+}
+.perfil_i {
+  width: 5rem;
+}
+.perfil1 {
+  width: 5rem;
+  text-align: left;
+}
+.perfil2, .perfil3, .perfil4, .perfil5, .perfil6 {
+  text-align: right; 
+  padding-right: 0.5rem;
+}
+.family1, .family2, .family3, .family4,.family5,.family6  {
+  font-weight: bold; 
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color:#212F3C;
+  vertical-align: middle;
+}
+.pareja1, .pareja2, .pareja3, .pareja4, .pareja5, .pareja6 {
+  font-style: oblique; 
+  font-weight: normal; 
+  margin-top: 0rem;
+  vertical-align: middle;
+  font-family: Georgia, serif;
+}
+.perfil1 {text-align: left;}
+.family1 {font-size: 1.4rem; background-color: #212F3C; color: white;}
+.pareja1 {font-size: 1.3rem;}      
+
+.perfil2 {width: 9em;}
+.family2 {font-size: 1.2rem; background-color: #E5E7E9;}
+.pareja2 {font-size: 1.15rem;}
+.nivel2  {margin-top: 1em;}
+
+.perfil3 {width: 13em;}
+.family3 {font-size: 1.15rem; }
+.pareja3 {font-size: 1.1rem;}
+
+.perfil4 {width: 16em;}
+.family4 {font-size: 1.1rem; }
+.pareja4 {font-size: 1rem;}
+
+.perfil5 {width: 19em;}
+.family5 {font-size: 1.1rem; font-weight: normal; }
+.pareja5 {font-size: 0.9rem;}
+
