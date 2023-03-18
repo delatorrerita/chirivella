@@ -21,21 +21,22 @@ new Familiar('52232', 4, 'f', 's', 'Samuel', 'Pacheco Vásquez', 'm', '', 'v', f
 
 new Familiar('523', 2, 'f', 'c', 'Tulio Eugenio', 'Valentíner Chirivella', 'm', '14-noviembre', 'v', true, '-'),
 new Familiar('5231', 3, 'f', 's', 'Angie', 'Valentíner', 'f', '', 'v', false, '-'),
-new Familiar('523a', 2, 'p', 'c', 'Sandra', 'Márquez', 'f', '', 'v', false, '-'),
+new Familiar('523a', 2, 'p', 'c', 'Sandra', 'Márquez', 'f', '30-julio', 'v', false, '-'),
 new Familiar('5232', 3, 'f', 'c', 'Daniel', 'Valentíner Márquez', 'm', '', 'v', false, '-'),
 new Familiar('5232a', 3, 'p', 'c', 'Esposa', '-', 'f', '', 'v', false, '-'),
+new Familiar('52321', 4, 'f', 's', 'María Daniela', 'Valentíner', 'f', '', 'v', false, '-'),  
 new Familiar('5233', 3, 'f', 's', 'Irene', 'Valentíner Márquez', 'f', '', 'v', false, '-'),
 
 new Familiar('524', 2, 'f', 'c', 'Abelardo Rafael', 'Valentíner Chirivella', 'm', '30-septiembre', 'v', true, '-'),
 new Familiar('524a', 2, 'p', 'c', 'Ana Rita', 'Rodríguez Chirivella', 'f', '16-septiembre', 'v', false, '-'),
-new Familiar('5241', 3, 'f', 'r', 'Abelardo Antonio', 'Valentíner Rodríguez', 'm', '', 'v', false, '-'),
+new Familiar('5241', 3, 'f', 'r', 'Abelardo Antonio', 'Valentíner Rodríguez', 'm', '10-noviembre', 'v', false, '-'),
 new Familiar('5241a', 3, 'p', 'r', 'Mariángeles', 'López', 'f', '', 'v', false, '-'),
 
 new Familiar('525', 2, 'f', 'd', 'Rolando Jesús', 'Valentíner Chirivella', 'm', '05-noviembre', 'v', true, '-'),
 new Familiar('525a', 2, 'p', 'd', 'Gloria', 'Williams', 'f', '', '', false, '-'),
 new Familiar('5251', 3, 'f', 's', 'Maurice', 'Valentíner Williams', 'm', '', 'v', false, '-'),
 
-new Familiar('526', 2, 'f', 'c', 'Manuel Lorenzo', 'Valentíner Chirivella', 'm', '06-febrero', 'v', true, '-'),
+new Familiar('526', 2, 'f', 'c', 'Manuel Lorenzo', 'Valentíner Chirivella', 'm', '09-febrero', 'v', true, '-'),
 new Familiar('526a', 2, 'p', 'd', 'Francis Yanet', 'Chen', 'f', '', 'v', false, '-'),
 new Familiar('5261', 3, 'f', 'c', 'Mayalin', 'Valentíner Chen', 'f', '', 'v', false, '-'),
 new Familiar('5261a', 3, 'p', 'c', 'Johnder', 'Perozo', 'm', '', '', false, '-'),
@@ -62,5 +63,5 @@ new Familiar('5281', 3, 'f', 's', 'Isabel', 'Graf Valentíner', 'f', '', 'v', fa
 new Familiar('5282', 3, 'f', 's', 'Ileana', 'Graf Valentíner', 'f', '', 'v', false, '-'),
 
 new Familiar('529', 2, 'f', 's', 'Mery Flor', 'Valentíner Chirivella', 'f', '15-septiembre', 'v', false, '-'),
-new Familiar('520', 2, 'f', 's', 'Duilio Simón', 'Valentíner Chirivella', 'm', '29-noviembre', 'v', false, '-'),
+new Familiar('520', 2, 'f', 's', 'Duilio Simón', 'Valentíner Chirivella', 'm', '25-noviembre', 'v', false, '-'),
 ]
