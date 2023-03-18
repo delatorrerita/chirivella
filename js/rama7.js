@@ -8,7 +8,7 @@ new Familiar('571a', 2, 'p', 'c', 'Jorge Eduardo', 'Tovar García', 'm', '', 'v'
 new Familiar('5711', 3, 'f', 's', 'Oxmerari Angely', 'Tovar Chirivella', 'f', '02-agosto', 'v', false, '-'),
 new Familiar('5712', 3, 'f', 's', 'Isarith Alexandra', 'Tovar Chirivella', 'f', '', 'v', false, '-'),
 
-new Familiar('572', 2, 'f', 'd', 'Avilio Arturo Manuel', 'Chirivella Landaeta', 'm', '30-octubre', 'v', true, '-'),
+new Familiar('572', 2, 'f', 'd', 'Avilio Arturo Manuel', 'Chirivella Landaeta', 'm', '31-octubre', 'v', true, '-'),
 new Familiar('572a', 2, 'p', 'd', 'Arely', 'Montes de Oca', 'f', '', 'v', false, '-'),
 new Familiar('5721', 3, 'f', 's', 'Arturo Alejandro', 'Chirivella Montes de Oca', 'm', '', 'v', false, '-'),
 new Familiar('5722', 3, 'f', 's', 'Ariadna', 'Chirivella Montes de Oca', 'f', '', 'v', false, '-'),
