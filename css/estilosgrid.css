@@ -73,7 +73,6 @@ a {text-decoration: none;}
         "f v d"
         "m m m";
   
-  grid-template-rows: 1.3em;
   vertical-align: top;
   margin-bottom: 0.5em;
 }
@@ -82,7 +81,6 @@ a {text-decoration: none;}
   grid: "f s n"
         "f v d";
   
-  grid-template-rows: 1em;
   vertical-align: top;
   margin-bottom: 0.3em;
 }
