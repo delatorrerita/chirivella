@@ -1,6 +1,6 @@
 //constructor(id, nivel, tipo, status, nombres, apellidos, sexo, nace, muere, detalle, url)
 const integrantes = [
-new Familiar('51', 1, 'f', 'c', 'Armando Francisco', 'Chirivella Varela', 'm', '25-agosto', 'm', false, '-'),
+new Familiar('51', 1, 'f', 'c', 'Armando Antonio', 'Chirivella Varela', 'm', '25-agosto', 'm', false, '-'),
 new Familiar('51a', 1, 'p', 'c', 'Cecilia', 'Arellano', 'f', '3-noviembre', '19-abril', false, '-'),
 
 new Familiar('511', 2, 'f', 'c', 'Darío Armando', 'Chirivella Arellano', 'm', '', '11-septiembre', true, '-'),
