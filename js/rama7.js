@@ -6,7 +6,7 @@ new Familiar('57a', 1, 'p', 'd', 'Judith Marina', "Landaeta D'Aubeterre", 'f', '
 new Familiar('571', 2, 'f', 'c', 'Oxmerari Judith', 'Chirivella Landaeta', 'f', '27-febrero', 'v', true, '-'),
 new Familiar('571a', 2, 'p', 'c', 'Jorge Eduardo', 'Tovar García', 'm', '', 'v', false, '-'),
 new Familiar('5711', 3, 'f', 's', 'Oxmerari Angely', 'Tovar Chirivella', 'f', '02-agosto', 'v', false, '-'),
-new Familiar('5712', 3, 'f', 's', 'Isarith Alexandra', 'Tovar Chirivella', 'f', '', 'v', false, '-'),
+new Familiar('5712', 3, 'f', 's', 'Isarith Alexandra', 'Tovar Chirivella', 'f', '19-marzo', 'v', false, '-'),
 
 new Familiar('572', 2, 'f', 'd', 'Avilio Arturo Manuel', 'Chirivella Landaeta', 'm', '31-octubre', 'v', true, '-'),
 new Familiar('572a', 2, 'p', 'd', 'Arely', 'Montes de Oca', 'f', '', 'v', false, '-'),
