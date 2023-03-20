@@ -1,7 +1,7 @@
 //constructor(id, nivel, tipo, status, nombres, apellidos, sexo, nace, muere, detalle, url)
 const integrantes = [
-new Familiar('51', 1, 'f', 'c', 'Armando Antonio', 'Chirivella Varela', 'm', '25-agosto', 'm', false, '-'),
-new Familiar('51a', 1, 'p', 'c', 'Cecilia', 'Arellano', 'f', '3-noviembre', '19-abril', false, '-'),
+new Familiar('51', 1, 'f', 'c', 'Armando Antonio', 'Chirivella Varela', 'm', '17-septiembre', 'm', false, '-'),
+new Familiar('51a', 1, 'p', 'c', 'Cecilia', 'Arellano', 'f', '03-noviembre', '19-abril', false, '-'),
 
 new Familiar('511', 2, 'f', 'c', 'Darío Armando', 'Chirivella Arellano', 'm', '', '11-septiembre', true, '-'),
 new Familiar('511a', 2, 'p', 'v', 'Belkys', 'Sánchez', 'f', '', 'v', false, '-'),
@@ -16,6 +16,6 @@ new Familiar('512', 2, 'f', 'c', 'Aída Cecilia', 'Chirivella Arellano', 'f', '1
 new Familiar('512a', 2, 'p', 'c', 'Ramón', 'Delgado', 'm', '', 'v', false, '-'),
 new Familiar('5121', 3, 'f', 's', 'Ricardo José', 'Delgado Chirivella', 'm', '', 'v', false, '-'),
 
-new Familiar('513', 2, 'f', 's', 'César Augusto', 'Chirivella Arellano', 'm', '', 'm', false, '-'),
+new Familiar('513', 2, 'f', 's', 'César Antonio', 'Chirivella Arellano', 'm', '', 'm', false, '-'),
 new Familiar('514', 2, 'f', 's', 'Betty Lucía', 'Chirivella Arellano', 'f', '16-junio', 'v', false, '-'),
 ]
