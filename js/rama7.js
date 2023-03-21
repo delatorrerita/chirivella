@@ -26,5 +26,5 @@ new Familiar('5732', 3, 'f', 's', 'Ángel Manuel', 'Cartelle Chirivella', 'm', '
 new Familiar('5733', 3, 'f', 's', 'Emilio Manuel', 'Cartelle Chirivella', 'm', '03-octubre', 'v', false, '-'),
 
 new Familiar('574', 2, 'f', 'r', 'Rudith Angélica', 'Chirivella Landaeta', 'f', '28-febrero', 'v', true, '-'),
-new Familiar('574a', 2, 'p', 'r', 'José Manuel', 'Pacheco Castellanos', 'm', '', 'v', false, '-'),
+new Familiar('574a', 2, 'p', 'r', 'José Manuel', 'Pacheco Castellanos', 'm', '8-febrero', 'v', false, '-'),
 ]
