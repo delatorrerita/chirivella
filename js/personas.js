@@ -122,34 +122,56 @@ class Familiar {
     return fechas;
   }
 
-  enlaceImagen() {
-    let imagenMostrar="";
-    let n = (this.nivel==1)?'1':'';
-    if (this.url == '-' || this.url[0] == "+") {
-      imagenMostrar = `<img class="foto${n} ${this.tFoto()}" title="${this.nombres} (${this.id})" src="./img/${this.id}.png"/>`
-    } else {
-      imagenMostrar = `
-      <a target="_blank" href="${this.url}">
-        <img class="foto${n} ${this.tFoto()}" title="${this.id} ${this.nombres}" src="./img/${this.id}.png"/>
-      </a>
-      `
+  enlace() {
+    let enlace = `<a target="_blank" href="${this.url}">&#x1F310;</a>`;
+    return enlace;
+  }
+
+  llevaEnlace() {
+    let lleva = true;
+    if (this.url[0] == "-" || this.url[0] == "+") {
+      lleva = false;
     }
-    return imagenMostrar;
+    return lleva;
+  }
+
+  imagenMostrar() {
+    let n = this.nivel;
+    return `<img class="foto foto${n} ${this.tFoto()}" title="${this.nombres} (${this.id})" src="./img/${this.id}.png"/>`
   }
 
   toString() {
     let gridPersona = "";
     let n = this.nivel;
-    
+    let margen = "m"+(n-1);
+
+/*    
+    <div class="nivel2" id="551">
+      <div class="margen"><span class="m1">&nbsp;</span> </div>
+      <div class="imagen"><img class="foto f2" src="../img/551.png"/></div>
+      <div class="fam2">
+        <p class="principal"> 
+        <a target="_blank" href="https://delatorrerita.github.io/perfiles/rita.html">&#x1F310;</a>
+        Rita Sofía de la Torre Chirivella</p>
+      </div>
+      <div class="dates">(2 de julio)</div>
+    </div>
+
+
+*/
       gridPersona += `
-          <div id="${this.id}" class="nivel${n}">
-          <div class="imagen">${this.enlaceImagen()}</div>
-          <div class="status"></div>
+        <div id="${this.id}" class="nivel${n}">
+          <div class="margen"><span class="${margen}">&nbsp;</span></div>
+          <div class="imagen">${this.imagenMostrar()}</div>
           <div class="${this.tFila()}" title="${this.tNivel()}">
-            ${this.nombres} ${this.apellidos} ${this.iconStatus()}
+            <p class="principal">`
+      if (this.llevaEnlace()) { gridPersona += this.enlace(); }  
+      gridPersona +=`    
+              ${this.nombres} ${this.apellidos} ${this.iconStatus()}
+            </p>
           </div>
-          <div class="vacio">&nbsp;</div>
           <div class="dates">${this.vida()}</div>
+        </div>
       `
       if (this.nivel==2 && this.tipo=="f" && this.detalle) {  
         gridPersona += `
@@ -158,7 +180,6 @@ class Familiar {
           </details> 
         `
       } 
-      gridPersona += '</div>';
 
     
     return gridPersona;
@@ -169,7 +190,7 @@ class Familiar {
     let n = this.nivel;
     gridPersona += `  
       <div id="${this.id}" class="nivel${n}">
-        <div class="imagen1">${this.enlaceImagen()}</div>
+        <div class="imagen1">${this.imagenMostrar()}</div>
         <div id="fam1" class="fam1">
           ${this.nombres}<br>
           <a title="Chirivella Varela" href="index.html">&#9664;</a> 
@@ -185,7 +206,7 @@ class Familiar {
     let gridPersona = "";
     let n = this.nivel;
     gridPersona += ` 
-      <div class="imagen1a">${this.enlaceImagen()}</div>
+      <div class="imagen1a">${this.imagenMostrar()}</div>
       <div id="fam1a" class="fam1a">${this.nombres}<br>${this.apellidos}</div>
       <div id="date1a" class="date1a">${this.vida()}</div>
     `
