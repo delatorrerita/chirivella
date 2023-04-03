@@ -11,5 +11,5 @@ new Familiar('582a', 2, 'p', 'c', 'Omar Sergio', 'Gugliesi', 'm', '16-marzo', 'v
 new Familiar('5821', 3, 'f', 'c', 'Sergio Andrés', 'Gugliesi Rodríguez', 'm', '01-octubre', 'v', false, '-', true),
 new Familiar('5821a', 3, 'p', 'c', 'Carolina', '-', 'f', '', '', false, '-', true),
 new Familiar('58211', 4, 'f', 's', 'Simón', '-', 'm', '', '', false, '-', true),
-new Familiar('5822', 3, 'f', 's', "David Eduardo", "Gugliesi Rodríguez", 'm', '15-mayo', 'v', false, ''-'', true),
+new Familiar('5822', 3, 'f', 's', "David Eduardo", "Gugliesi Rodríguez", 'm', '15-mayo', 'v', false, '-', true),
 ]
