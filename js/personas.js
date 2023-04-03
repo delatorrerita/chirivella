@@ -1,6 +1,6 @@
 class Familiar {
 
-  constructor(id, nivel, tipo, status, nombres, apellidos, sexo, nace, muere, detalle, url) {
+  constructor(id, nivel, tipo, status, nombres, apellidos, sexo, nace, muere, detalle, url, foto) {
     this.id = id;
     this.nivel = nivel;
     this.tipo = tipo;
@@ -11,7 +11,8 @@ class Familiar {
     this.nace = nace;
     this.muere = muere;
     this.detalle = detalle;
-    this.url = url;    
+    this.url = url;
+    this.foto = foto;    
   }
 
   raiz() {
@@ -38,13 +39,13 @@ class Familiar {
 
   tFoto() {
     let claseFoto='';
-    if (this.tipo=="f") {
+    if (this.tipo=="f")  {
       claseFoto=`f${this.nivel}`
-    } else if (this.tipo=="p") {
-      claseFoto=`fp${this.nivel}`
+    } else if (this.tipo=="p")  {
+      claseFoto=`fp${this.nivel}`    
     }
-    
-    return claseFoto;
+    console.log(claseFoto);
+    return claseFoto; 
   }
 
   tFila() {
@@ -137,7 +138,9 @@ class Familiar {
 
   imagenMostrar() {
     let n = this.nivel;
-    return `<img class="foto foto${n} ${this.tFoto()}" title="${this.nombres} (${this.id})" src="./img/${this.id}.png"/>`
+    let fotografia = (this.foto === true) ? this.id +'.png' : 'none.png';
+    return  `<img class="foto foto${n} ${this.tFoto()}" title="${this.nombres} (${this.id})" src="./img/${fotografia}"/>`
+    
   }
 
   toString() {
