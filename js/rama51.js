@@ -3,9 +3,9 @@ const integrantes = [
   new Familiar('51', 1, 'f', 'c', 'Armando Antonio', 'Chirivella Varela', 'm', '17-septiembre', '01-julio', false, '-', true),
   new Familiar('51a', 1, 'p', 'c', 'Cecilia', 'Arellano', 'f', '03-noviembre', '19-abril', false, '-', true),
   
-  new Familiar('511', 2, 'f', 'c', 'Darío Armando', 'Chirivella Arellano', 'm', '25-febrero', '11-abril', true, '-', false),
+  new Familiar('511', 2, 'f', 'c', 'Darío Armando', 'Chirivella Arellano', 'm', '25-febrero', '11-abril', true, '-', true),
   new Familiar('511a', 2, 'p', 'v', 'Belkys', 'Sánchez', 'f', '', 'v', false, '-', true),
-  new Familiar('5111', 3, 'f', 's', 'Darío Armando', 'Chirivella Sánchez', 'm', '', 'v', false, '-', true),
+  new Familiar('5111', 3, 'f', 's', 'Darío Armando', 'Chirivella Sánchez', 'm', '', 'v', false, '-', false),
   new Familiar('5112', 3, 'f', 'c', 'Darybel', 'Chirivella Sánchez', 'f', '', 'v', false, '-', true),
   new Familiar('5113', 3, 'f', 's', 'Daniel Alejandro', 'Chirivella Sánchez', 'm', '', 'v', false, '-', true),
   new Familiar('5114', 3, 'f', 's', 'David', 'Chirivella Sánchez', 'm', '', 'm', false, '-', true),
