@@ -27,7 +27,7 @@ new Familiar('52232', 4, 'f', 's', 'Samuel', 'Pacheco Vásquez', 'm', '23-abril'
 new Familiar('523', 2, 'f', 'c', 'Tulio Eugenio', 'Valentíner Chirivella', 'm', '14-noviembre', 'v', true, '-', true),
 new Familiar('5231', 3, 'f', 'c', 'Angie', 'Valentíner', 'f', '11-febrero', 'v', false, '-', true),
 new Familiar('5231p', 3, 'f', 'c', 'Carlos', 'Andrade', 'm', '', 'v', false, '-', false),  
-new Familiar('52311', 3, 'f', 's', 'Felipe Salvador', 'Andrade Valentíner', 'm', '24-diciembre', 'v', false, '-', false),   
+new Familiar('52311', 4, 'f', 's', 'Felipe Salvador', 'Andrade Valentíner', 'm', '24-diciembre', 'v', false, '-', false),   
 new Familiar('523a', 2, 'p', 'c', 'Sandra', 'Márquez', 'f', '30-julio', 'v', false, '-', true),
 new Familiar('5232', 3, 'f', 'c', 'Daniel', 'Valentíner Márquez', 'm', '26-septiembre', 'v', false, '-', true),
 new Familiar('5232a', 3, 'p', 'c', 'María Graciela', 'Guada Yelano', 'f', '', 'v', false, '-', true),
