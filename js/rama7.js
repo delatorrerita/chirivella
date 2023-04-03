@@ -3,7 +3,7 @@ const integrantes = [
   new Familiar('57', 1, 'f', 'd', 'Avilio Alfonso', 'Chirivella Varela', 'm', '22-febrero', '23-junio', false, 'https://enyoranzas.blogspot.com/', true),
   new Familiar('57a', 1, 'p', 'd', 'Judith Marina', "Landaeta D'Aubeterre", 'f', '24-abril', 'v', false, '-', true),
   
-  new Familiar('571', 2, 'f', 'c', 'Oxmerari Judith', 'Chirivella Landaeta', 'f', '27-febrero', 'v', true, '@dra.chirivella', true),
+  new Familiar('571', 2, 'f', 'c', 'Oxmerari Judith', 'Chirivella Landaeta', 'f', '27-febrero', 'v', true, 'https://www.youtube.com/watch?v=gehTxkRScl8', true),
   new Familiar('571a', 2, 'p', 'c', 'Jorge Eduardo', 'Tovar García', 'm', '13-noviembre', 'v', false, '-', true),
   new Familiar('5711', 3, 'f', 's', 'Oxmerari Angely', 'Tovar Chirivella', 'f', '01-agosto', 'v', false, '-', true),
   new Familiar('5712', 3, 'f', 's', 'Isarith Alexandra', 'Tovar Chirivella', 'f', '18-marzo', 'v', false, '-', true),
